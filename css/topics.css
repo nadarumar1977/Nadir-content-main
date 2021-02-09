@@ -1,0 +1,26 @@
+body{
+    /* padding: 2rem 0rem; */
+    height: 100%;
+    background-image: url('https://papers.co/wallpaper/papers.co-vk55-android-lollipop-material-design-pattern-36-3840x2400-4k-wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .image-parent {
+    max-width: 400px;
+  }
+
+  .items{
+      background-color: transparent !important;
+      color: white !important;
+      border-bottom:2px dashed white !important;
+    }
+  
+ 
+  
+  .heading{
+      text-decoration: underline;
+      font-style: italic;
+      
+  }
+  

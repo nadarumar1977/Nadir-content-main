@@ -1,0 +1,56 @@
+body{
+  background: url("../assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about {
+  animation: fadeOut 2s;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 760px;
+}
+.data{
+  background-color: rgba(128, 128, 128, 0.5) !important;
+}
+
+#content {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  align-content: center;
+  justify-content: center;
+  font-size: 20px;
+  color:rgb(149, 228, 242)
+}
+#card {
+  display: flex;
+  min-width: 320px;
+  min-height: 520px;
+  /* background: rgb(255, 255, 255); */
+  border: 10pt;
+  border-radius: 8pt;
+  align-content: center;
+  justify-content: center;
+}
+#dp {
+  background: url("../assets/dp.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 220px;
+  width: 220px;
+  margin: 30px;
+  border: 10px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#text {
+  position: relative;
+  max-width: 300px;
+  font-size: 18px;
+  font-family: "Indie Flower";
+  text-align: center;
+  top: 250px;
+}
